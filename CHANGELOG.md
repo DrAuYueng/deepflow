@@ -8,6 +8,14 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: querier converts types when using dictget [#7997](https://github.com/deepflowio/deepflow/pull/7997) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: if using ByConity database storage, no need to deal with _local tables [#7993](https://github.com/deepflowio/deepflow/pull/7993) by [lzf575](https://github.com/lzf575)
+* fix: aarch64 musl compilation [#7992](https://github.com/deepflowio/deepflow/pull/7992) by [rvql](https://github.com/rvql)
+* fix: Agent configuration template [#7989](https://github.com/deepflowio/deepflow/pull/7989) by [rvql](https://github.com/rvql)
+* fix: add log to agent remote commands [#7987](https://github.com/deepflowio/deepflow/pull/7987) by [roryye](https://github.com/roryye)
+* fix: fixes recorder cache log level error [#7970](https://github.com/deepflowio/deepflow/pull/7970) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: end_point is null [#7966](https://github.com/deepflowio/deepflow/pull/7966) by [incoffeemonster](https://github.com/incoffeemonster)
+* fix: optimized transtype function [#7875](https://github.com/deepflowio/deepflow/pull/7875) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +159,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add pod_cluster info in vtap api [#7984](https://github.com/deepflowio/deepflow/pull/7984) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -328,6 +337,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: remove unused sql [#7656](https://github.com/deepflowio/deepflow/pull/7656) by [roryye](https://github.com/roryye)
 * refactor: Adjust agent profile configurations [#7918](https://github.com/deepflowio/deepflow/pull/7918) by [rvql](https://github.com/rvql)
 * refactor: update trace_tree debug info [#7915](https://github.com/deepflowio/deepflow/pull/7915) by [lzf575](https://github.com/lzf575)
 * refactor: agent divides the config into dynamic_config and user_config [#7872](https://github.com/deepflowio/deepflow/pull/7872) by [TomatoMr](https://github.com/TomatoMr)
