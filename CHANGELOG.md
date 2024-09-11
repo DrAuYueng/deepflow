@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix DWARF config on unsupported systems and tracer restart [#8118](https://github.com/deepflowio/deepflow/pull/8118) by [rvql](https://github.com/rvql)
+* fix: agent - eBPF Fix the calculation of total process time [#8117](https://github.com/deepflowio/deepflow/pull/8117) by [yinjiping](https://github.com/yinjiping)
+* fix: querier TopK supporrt resource_id [#8104](https://github.com/deepflowio/deepflow/pull/8104) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +154,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support free OS memory at intervals [#8091](https://github.com/deepflowio/deepflow/pull/8091) by [lzf575](https://github.com/lzf575)
+* feat: support profile data compressed by agent [#8088](https://github.com/deepflowio/deepflow/pull/8088) by [taloric](https://github.com/taloric)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
