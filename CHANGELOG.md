@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: ebpf dispatcher build error [#8197](https://github.com/deepflowio/deepflow/pull/8197) by [TomatoMr](https://github.com/TomatoMr)
+* fix: peer connection api limit [#8194](https://github.com/deepflowio/deepflow/pull/8194) by [askyrie](https://github.com/askyrie)
+* fix: incorrect tcp rrt [#8152](https://github.com/deepflowio/deepflow/pull/8152) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +154,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Modify default l7 protocol enable [#8198](https://github.com/deepflowio/deepflow/pull/8198) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: reduce the application protocols parsed by default [#8196](https://github.com/deepflowio/deepflow/pull/8196) by [sharang](https://github.com/sharang)
+* feat: default genesis sync vpc name [#8192](https://github.com/deepflowio/deepflow/pull/8192) by [askyrie](https://github.com/askyrie)
+* feat: update cloud region filter [#8105](https://github.com/deepflowio/deepflow/pull/8105) by [askyrie](https://github.com/askyrie)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
