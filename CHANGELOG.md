@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: reduce kafka app misidentification [#8205](https://github.com/deepflowio/deepflow/pull/8205) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: agent build error [#8204](https://github.com/deepflowio/deepflow/pull/8204) by [TomatoMr](https://github.com/TomatoMr)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +153,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Support K8S_WATCH_POLICY env [#8210](https://github.com/deepflowio/deepflow/pull/8210) by [rvql](https://github.com/rvql)
+* feat: trace tree support multi regions [#8209](https://github.com/deepflowio/deepflow/pull/8209) by [taloric](https://github.com/taloric)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -328,6 +332,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: agent workspace dependencies [#8208](https://github.com/deepflowio/deepflow/pull/8208) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: Adjust agent profile configurations [#7918](https://github.com/deepflowio/deepflow/pull/7918) by [rvql](https://github.com/rvql)
 * refactor: update trace_tree debug info [#7915](https://github.com/deepflowio/deepflow/pull/7915) by [lzf575](https://github.com/lzf575)
 * refactor: agent divides the config into dynamic_config and user_config [#7872](https://github.com/deepflowio/deepflow/pull/7872) by [TomatoMr](https://github.com/TomatoMr)
@@ -367,8 +372,8 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
-
 
 #### OTHER
 * Relaxing regular expression restrictions for the ClusterID [#7907](https://github.com/deepflowio/deepflow/pull/7907) by [Hyzhou](https://github.com/Hyzhou)
