@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify exist attribute tag translation [#8272](https://github.com/deepflowio/deepflow/pull/8272) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: fix exist attribute tag error [#8269](https://github.com/deepflowio/deepflow/pull/8269) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: fix exist attribute tag error [#8267](https://github.com/deepflowio/deepflow/pull/8267) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: process matcher error [#8264](https://github.com/deepflowio/deepflow/pull/8264) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
