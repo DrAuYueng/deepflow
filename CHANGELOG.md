@@ -151,6 +151,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feature: calls trisolaris refresh after updating agent group config [#8356](https://github.com/deepflowio/deepflow/pull/8356) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feature: removes unused configuration [#8355](https://github.com/deepflowio/deepflow/pull/8355) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: agent - eBPF Choose to exit when an error occurs [#8352](https://github.com/deepflowio/deepflow/pull/8352) by [yinjiping](https://github.com/yinjiping)
+* feat: genesis support agent func [#8288](https://github.com/deepflowio/deepflow/pull/8288) by [askyrie](https://github.com/askyrie)
+* feature: adds agent group config api [#8065](https://github.com/deepflowio/deepflow/pull/8065) by [roryye](https://github.com/roryye)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -371,6 +376,7 @@
 
 
 #### OTHER
+* Support for one custom workload StatefulSetPlus [#8348](https://github.com/deepflowio/deepflow/pull/8348) by [Hyzhou](https://github.com/Hyzhou)
 * Relaxing regular expression restrictions for the ClusterID [#7907](https://github.com/deepflowio/deepflow/pull/7907) by [Hyzhou](https://github.com/Hyzhou)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
