@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Agent OS string in container [#8376](https://github.com/deepflowio/deepflow/pull/8376) by [rvql](https://github.com/rvql)
+* fix: modify auto resource filter [#8374](https://github.com/deepflowio/deepflow/pull/8374) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: modify regular filter [#8373](https://github.com/deepflowio/deepflow/pull/8373) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
