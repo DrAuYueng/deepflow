@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: container env supports aggr packets with and without tunnels [#8427](https://github.com/deepflowio/deepflow/pull/8427) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +152,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Change bpf map feat to feat_flags to support multi-function [#8424](https://github.com/deepflowio/deepflow/pull/8424) by [rvql](https://github.com/rvql)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -352,6 +354,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: reduce ckwriter memory [#8417](https://github.com/deepflowio/deepflow/pull/8417) by [lzf575](https://github.com/lzf575)
 * perf: remove the '-l' compilation parameter to allow inline [#7935](https://github.com/deepflowio/deepflow/pull/7935) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of ClickHouse table changes under multiple organizations [#7788](https://github.com/deepflowio/deepflow/pull/7788) by [lzf575](https://github.com/lzf575)
 * perf: speed up the update of ClickHouse table structure [#7748](https://github.com/deepflowio/deepflow/pull/7748) by [lzf575](https://github.com/lzf575)
