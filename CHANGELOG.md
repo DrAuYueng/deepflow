@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Agent crash and misaligned read/write [#8506](https://github.com/deepflowio/deepflow/pull/8506) by [rvql](https://github.com/rvql)
+* fix: panic when migrating vtap_group_configuration [#8505](https://github.com/deepflowio/deepflow/pull/8505) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +153,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feature: migrates vtap_group_config table [#8492](https://github.com/deepflowio/deepflow/pull/8492) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: agent - eBPF Set the full path for file reading and writing [#8486](https://github.com/deepflowio/deepflow/pull/8486) by [yinjiping](https://github.com/yinjiping)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
