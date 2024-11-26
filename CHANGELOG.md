@@ -151,6 +151,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support dd integration [#8538](https://github.com/deepflowio/deepflow/pull/8538) by [taloric](https://github.com/taloric)
+* feature: modifies to new agent-group config api in cli [#8530](https://github.com/deepflowio/deepflow/pull/8530) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: cloud delete exclude region [#8519](https://github.com/deepflowio/deepflow/pull/8519) by [askyrie](https://github.com/askyrie)
+* feat: querier support language parameter [#8503](https://github.com/deepflowio/deepflow/pull/8503) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support collecting dpdk packets through eBPF [#8499](https://github.com/deepflowio/deepflow/pull/8499) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -328,6 +333,8 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: update sonic #8553 [#8558](https://github.com/deepflowio/deepflow/pull/8558) by [lzf575](https://github.com/lzf575)
+* refactor: Byconity not support create 1h,1d aggr tables [#8556](https://github.com/deepflowio/deepflow/pull/8556) by [lzf575](https://github.com/lzf575)
 * refactor: Adjust agent profile configurations [#7918](https://github.com/deepflowio/deepflow/pull/7918) by [rvql](https://github.com/rvql)
 * refactor: update trace_tree debug info [#7915](https://github.com/deepflowio/deepflow/pull/7915) by [lzf575](https://github.com/lzf575)
 * refactor: agent divides the config into dynamic_config and user_config [#7872](https://github.com/deepflowio/deepflow/pull/7872) by [TomatoMr](https://github.com/TomatoMr)
