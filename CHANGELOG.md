@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify log level [#8690](https://github.com/deepflowio/deepflow/pull/8690) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: query percentile to min/max time [#8685](https://github.com/deepflowio/deepflow/pull/8685) by [taloric](https://github.com/taloric)
+* fix: agent group api responses invalid int value [#8681](https://github.com/deepflowio/deepflow/pull/8681) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: invalid src_interface [#8680](https://github.com/deepflowio/deepflow/pull/8680) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: Modify the range of the pcp value [#8678](https://github.com/deepflowio/deepflow/pull/8678) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +156,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier optimization group [#8688](https://github.com/deepflowio/deepflow/pull/8688) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent - eBPF Optimize data push logic (#8653) [#8684](https://github.com/deepflowio/deepflow/pull/8684) by [yinjiping](https://github.com/yinjiping)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
