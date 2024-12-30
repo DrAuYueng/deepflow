@@ -151,6 +151,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat agent - eBPF Add DPDK statistics and update configuration [#8805](https://github.com/deepflowio/deepflow/pull/8805) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Adapt to TENCENT 5.4.119-19-0008.aarch64 [#8804](https://github.com/deepflowio/deepflow/pull/8804) by [yinjiping](https://github.com/yinjiping)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
