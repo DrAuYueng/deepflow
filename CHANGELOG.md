@@ -151,6 +151,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: discard the old configuration - 2 [#9010](https://github.com/deepflowio/deepflow/pull/9010) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: afpacket fanout support ebpf [#9007](https://github.com/deepflowio/deepflow/pull/9007) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Support AF_PACKET fanout eBPF (#9004) [#9005](https://github.com/deepflowio/deepflow/pull/9005) by [yinjiping](https://github.com/yinjiping)
+* feat: modifies vtap_type field default value [#9003](https://github.com/deepflowio/deepflow/pull/9003) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: discard the old agent configuration - 1 [#8993](https://github.com/deepflowio/deepflow/pull/8993) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
