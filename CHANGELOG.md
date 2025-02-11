@@ -151,6 +151,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent check add cache debug [#9078](https://github.com/deepflowio/deepflow/pull/9078) by [askyrie](https://github.com/askyrie)
+* feat: remove non-empty filtering of host grouping [#9075](https://github.com/deepflowio/deepflow/pull/9075) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: add cloud common for fc [#8959](https://github.com/deepflowio/deepflow/pull/8959) by [askyrie](https://github.com/askyrie)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -371,6 +374,7 @@
 
 
 #### OTHER
+* add vector config examples [#9067](https://github.com/deepflowio/deepflow/pull/9067) by [taloric](https://github.com/taloric)
 * Relaxing regular expression restrictions for the ClusterID [#7907](https://github.com/deepflowio/deepflow/pull/7907) by [Hyzhou](https://github.com/Hyzhou)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
