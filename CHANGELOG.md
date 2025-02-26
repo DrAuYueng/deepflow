@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: the name of native tag cannot use reserved words [#9202](https://github.com/deepflowio/deepflow/pull/9202) by [lzf575](https://github.com/lzf575)
+* fix: adding an existing native tag should result in a failure [#9201](https://github.com/deepflowio/deepflow/pull/9201) by [lzf575](https://github.com/lzf575)
+* fix: Inconsistent settings and examples [#9199](https://github.com/deepflowio/deepflow/pull/9199) by [rvql](https://github.com/rvql)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
