@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Fix TCP DNS client request loss [#9218](https://github.com/deepflowio/deepflow/pull/9218) by [yinjiping](https://github.com/yinjiping)
+* fix: refactors resource event panic [#9217](https://github.com/deepflowio/deepflow/pull/9217) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* Fix the wrong real ip [#9209](https://github.com/deepflowio/deepflow/pull/9209) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: embed sub template [#9208](https://github.com/deepflowio/deepflow/pull/9208) by [taloric](https://github.com/taloric)
+* fix: load yaml key case sensitive [#9204](https://github.com/deepflowio/deepflow/pull/9204) by [askyrie](https://github.com/askyrie)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +156,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: verify node internal address [#9213](https://github.com/deepflowio/deepflow/pull/9213) by [askyrie](https://github.com/askyrie)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
