@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: custom service match any port service [#9237](https://github.com/deepflowio/deepflow/pull/9237) by [lzf575](https://github.com/lzf575)
+* fix: custom service type error [#9234](https://github.com/deepflowio/deepflow/pull/9234) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: Add more info for get_k8s_image [#9233](https://github.com/deepflowio/deepflow/pull/9233) by [rvql](https://github.com/rvql)
+* fix: export prometheus failed [#9232](https://github.com/deepflowio/deepflow/pull/9232) by [lzf575](https://github.com/lzf575)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +155,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: enum auto service type add custom service [#9235](https://github.com/deepflowio/deepflow/pull/9235) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent group config gets l7 protocols from ck [#9188](https://github.com/deepflowio/deepflow/pull/9188) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -371,6 +377,7 @@
 
 
 #### OTHER
+* Update README.md [#9229](https://github.com/deepflowio/deepflow/pull/9229) by [1473371932](https://github.com/1473371932)
 * Relaxing regular expression restrictions for the ClusterID [#7907](https://github.com/deepflowio/deepflow/pull/7907) by [Hyzhou](https://github.com/Hyzhou)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
