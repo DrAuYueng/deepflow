@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: check device icon error [#9244](https://github.com/deepflowio/deepflow/pull/9244) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +152,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: prioritize matching services that don't have ports [#9248](https://github.com/deepflowio/deepflow/pull/9248) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: supports deduplication of custom service ip when sending to ingester [#9242](https://github.com/deepflowio/deepflow/pull/9242) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: custom service message interface changes [#9241](https://github.com/deepflowio/deepflow/pull/9241) by [lzf575](https://github.com/lzf575)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -371,6 +375,7 @@
 
 
 #### OTHER
+* doc: update enable description [#9246](https://github.com/deepflowio/deepflow/pull/9246) by [taloric](https://github.com/taloric)
 * Relaxing regular expression restrictions for the ClusterID [#7907](https://github.com/deepflowio/deepflow/pull/7907) by [Hyzhou](https://github.com/Hyzhou)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
