@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: genesis sync update storage [#9311](https://github.com/deepflowio/deepflow/pull/9311) by [askyrie](https://github.com/askyrie)
+* fix: show metrics error when table is event [#9285](https://github.com/deepflowio/deepflow/pull/9285) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
