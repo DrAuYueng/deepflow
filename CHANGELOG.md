@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Add tracepoint recvmmsg for kfunc bytecode [#9610](https://github.com/deepflowio/deepflow/pull/9610) by [yinjiping](https://github.com/yinjiping)
 * fix: Fix DWARF unwind entry for non PIE binaries [#7936](https://github.com/deepflowio/deepflow/pull/7936) by [rvql](https://github.com/rvql)
 * fix: Server config name mismatch [#7934](https://github.com/deepflowio/deepflow/pull/7934) by [rvql](https://github.com/rvql)
 * fix: log contents [#7920](https://github.com/deepflowio/deepflow/pull/7920) by [incoffeemonster](https://github.com/incoffeemonster)
@@ -151,6 +152,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add k8s ca md5sum in sync message [#9605](https://github.com/deepflowio/deepflow/pull/9605) by [rvql](https://github.com/rvql)
+* feat: support compress l4/l7 flow log message [#9604](https://github.com/deepflowio/deepflow/pull/9604) by [lzf575](https://github.com/lzf575)
+* feat: Support truncated mysql message [#9603](https://github.com/deepflowio/deepflow/pull/9603) by [rvql](https://github.com/rvql)
+* feat: sync request add field [#9602](https://github.com/deepflowio/deepflow/pull/9602) by [askyrie](https://github.com/askyrie)
+* feat: agnet - eBPF Support pure Kprobe/Kretprobe type probing [#9593](https://github.com/deepflowio/deepflow/pull/9593) by [yinjiping](https://github.com/yinjiping)
+* feat: adds license check [#9548](https://github.com/deepflowio/deepflow/pull/9548) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
