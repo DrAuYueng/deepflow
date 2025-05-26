@@ -151,6 +151,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: supports collecting k8s configmaps [#9692](https://github.com/deepflowio/deepflow/pull/9692) by [lzf575](https://github.com/lzf575)
 * feat: Add load_balancer in k8s Service/ServiceRule [#7933](https://github.com/deepflowio/deepflow/pull/7933) by [rvql](https://github.com/rvql)
 * feat: service is issued to add loadbalancer [#7932](https://github.com/deepflowio/deepflow/pull/7932) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * feat: agent - eBPF Add support for parsing 4.19.90-vhulk2211.3.0.h154… [#7930](https://github.com/deepflowio/deepflow/pull/7930) by [yinjiping](https://github.com/yinjiping)
@@ -328,6 +329,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: opt fast path [#9694](https://github.com/deepflowio/deepflow/pull/9694) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: Adjust agent profile configurations [#7918](https://github.com/deepflowio/deepflow/pull/7918) by [rvql](https://github.com/rvql)
 * refactor: update trace_tree debug info [#7915](https://github.com/deepflowio/deepflow/pull/7915) by [lzf575](https://github.com/lzf575)
 * refactor: agent divides the config into dynamic_config and user_config [#7872](https://github.com/deepflowio/deepflow/pull/7872) by [TomatoMr](https://github.com/TomatoMr)
