@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: otel queries don't support multithreading [#11841](https://github.com/deepflowio/deepflow/pull/11841) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix l7 ignore retrans only (#11838) [#11840](https://github.com/deepflowio/deepflow/pull/11840) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: app table matching error [#11813](https://github.com/deepflowio/deepflow/pull/11813) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agnet - eBPF Fix the kernel kick on CPU0 was not triggered [#8817](https://github.com/deepflowio/deepflow/pull/8817) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Crashes Caused by Packet Count Statistics [#8816](https://github.com/deepflowio/deepflow/pull/8816) by [yinjiping](https://github.com/yinjiping)
